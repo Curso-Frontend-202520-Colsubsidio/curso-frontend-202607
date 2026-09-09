@@ -27,6 +27,8 @@ function App() {
             voluptates.
             <br />
             Ultima version para la demostracion en clase
+
+            <h2>Esta rama es de ejemplo!</h2>
           </p>
         </div>
         <button
