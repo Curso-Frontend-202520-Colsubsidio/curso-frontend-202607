@@ -25,6 +25,8 @@ function App() {
             consectetur adipisicing elit. Fugit aliquid dolore cupiditate
             sapiente odit numquam libero quod consequatur dignissimos
             voluptates.
+            <br />
+            Ultima version para la demostracion en clase
           </p>
         </div>
         <button
