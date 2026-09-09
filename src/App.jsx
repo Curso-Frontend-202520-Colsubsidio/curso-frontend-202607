@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import { useState } from "react";
+import heroImg from "./assets/hero.png";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -18,7 +18,13 @@ function App() {
         <div>
           <h1>Hola mundo!</h1>
           <p>
-            Esta es una demostracion de un despliegue hecho en Vercel!
+            Esta es una demostracion de un despliegue hecho en Vercel! Y este
+            texto adicional es la version numero 2! 
+            <br />
+            Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Fugit aliquid dolore cupiditate
+            sapiente odit numquam libero quod consequatur dignissimos
+            voluptates.
           </p>
         </div>
         <button
@@ -116,7 +122,7 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
